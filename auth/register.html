@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Register</h2>
+
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" placeholder="spoddl@gmail.com" />
+
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" placeholder="***************" />
+
+        <label for="confirmPassword">Re-enter your password</label>
+        <input type="password" id="confirmPassword" placeholder="***************" />
+
+        <label for="category">Choose category</label>
+        <div class="custom-select" onclick="toggleDropdown()">
+            <div id="selectedOption">Select category</div>
+            <div id="dropdown" class="dropdown hidden">
+                <div onclick="selectCategory('Volunteer')">Volunteer</div>
+                <div onclick="selectCategory('PetShelter')">Pet Shelter</div>
+                <div onclick="selectCategory('VetClinic')">Vet Clinic</div>
+            </div>
+        </div>
+        <input type="hidden" id="category" value="" />
+
+
+        <button onclick="register()">Sign Up</button>
+
+        <div class="bottom-text">
+            Already have an account? <a href="login.html" class="link">Sign in</a>
+        </div>
+
+        <div class="divider">or</div>
+
+        <button class="google-btn">Continue with Google</button>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>

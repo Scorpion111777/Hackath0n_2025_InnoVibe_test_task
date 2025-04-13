@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search Filter</title>
+  <link rel="stylesheet" href="style_search_filter.css">
+</head>
+<body>
+<div class="container">
+  <h1>Search</h1>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search..." />
+    <button class="filter-btn">🔍</button>
+  </div>
+
+  <form id="filterForm" class="filter-section">
+    <fieldset>
+      <legend>Pet</legend>
+      <label><input type="checkbox" name="pet" value="cat" checked> Cat</label>
+      <label><input type="checkbox" name="pet" value="dog" checked> Dog</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Age</legend>
+      <label><input type="checkbox" name="age" value="0-6"> up to 6 months</label>
+      <label><input type="checkbox" name="age" value="junior"> Junior</label>
+      <label><input type="checkbox" name="age" value="adult"> Adult</label>
+      <label><input type="checkbox" name="age" value="mature"> Mature</label>
+      <label><input type="checkbox" name="age" value="older"> Older</label>
+      <label><input type="checkbox" name="age" value="elderly"> Elderly</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Health status</legend>
+      <label><input type="checkbox" name="health" value="satisfactory"> Satisfactory</label>
+      <label><input type="checkbox" name="health" value="middle"> Middle</label>
+      <label><input type="checkbox" name="health" value="poor"> Poor</label>
+      <label><input type="checkbox" name="health" value="critical"> Critical</label>
+    </fieldset>
+
+    <div class="form-group">
+      <div class="map-container">
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2571.882235477427!2d24.01423361588954!3d49.83267467939609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7e8d52f2a7%3A0x95d7a4b94f20d105!2sLviv%20Polytechnic%20National%20University!5e0!3m2!1sen!2sua!4v1641234567890!5m2!1sen!2sua"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+    <button type="submit" class="search-btn">Search</button>
+  </form>
+</div>
+
+<script src="script_search_filter.js"></script>
+</body>
+</html>

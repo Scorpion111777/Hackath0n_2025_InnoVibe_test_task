@@ -1,0 +1,45 @@
+@import url("login.css");
+.custom-select {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.custom-select:hover {
+  border-color: #999;
+}
+
+.custom-select #selectedOption {
+  color: #333;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+.dropdown div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown div:hover {
+  background-color: #f2f2f2;
+}
+
+.hidden {
+  display: none;
+}

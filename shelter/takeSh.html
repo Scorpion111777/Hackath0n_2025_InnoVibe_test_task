@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Info Card</title>
+    <link rel="stylesheet" href="takeSh.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="image-container">
+            <img src="/src/images/cat1.jpg" alt="Cute cat" />
+            <div class="back-btn">←</div>
+            <div class="favorite-btn">
+                <i class="fa-regular fa-star"></i>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="title">Cat</div>
+            <div class="tags">
+                <div class="tag blue">2 m</div>
+                <div class="tag green">flegmatic</div>
+                <div class="tag yellow">300 g</div>
+            </div>
+            <div class="description">
+                Smart soft kitten found in Lviv is looking for a home.
+                Health status: satisfactory
+                Shelter number: 0326722725
+            </div>
+            <div class="time">12 h ago</div>
+            <button class="btn" onclick="handleTake()">Take</button>
+        </div>
+    </div>
+
+    <script src="takeSh.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" placeholder="spoddl@gmail.com" />
+
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" placeholder="***************" />
+
+        <div class="forgot">forgot password?</div>
+
+        <button onclick="login()">Login</button>
+
+        <div class="bottom-text">
+            Don’t have an account? <a href="register.html" class="link">Sign Up</a>
+        </div>
+
+        <div class="divider">or</div>
+
+        <button class="google-btn">Continue with Google</button>
+
+        <div class="guest">Continue as Guest</div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

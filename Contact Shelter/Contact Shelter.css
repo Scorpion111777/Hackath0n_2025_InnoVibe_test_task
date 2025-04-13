@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 480px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 18px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  
+  .input-icon {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 10px 14px;
+  }
+  
+  .input-icon span {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .input-icon input,
+  .input-icon textarea {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    background: transparent;
+  }
+  
+  .textarea-icon {
+    align-items: flex-start;
+  }
+  
+  .input-icon textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .send-btn,
+  .google-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background 0.3s;
+  }
+  
+  .send-btn {
+    background: #F66B00;
+    color: #fff;
+  }
+  
+  .send-btn:hover {
+    background: #ff882e;
+  }
+  
+  .google-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 14px;
+  }
+  
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+  }
+  

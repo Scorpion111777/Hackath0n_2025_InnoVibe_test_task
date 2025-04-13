@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shelter</title>
+    <link rel="stylesheet" href="shelter.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>shelter</h1>
+            <div class="filters">
+                <button class="filter active" onclick="filterPets('All')">
+                    <img src="/src/images/all.png" alt="all" />
+                    All
+                </button>
+                <button class="filter" onclick="filterPets('Cats')">
+                    <img src="/src/images/Cats.png" alt="cats" />
+                    Cats
+                </button>
+                <button class="filter" onclick="filterPets('Dogs')">
+                    <img src="/src/images/dog.jpg" alt="dogs" />
+                    Dogs
+                </button>
+            </div>
+        </header>
+
+        <main id="petsList" class="grid"></main>
+    </div>
+
+    <script src="shelter.js"></script>
+</body>
+
+</html>
