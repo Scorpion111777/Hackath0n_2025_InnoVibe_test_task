@@ -37,9 +37,6 @@ Our goal is to streamline communication, increase visibility for stray animals, 
 - 💬 **Messaging System**: Secure communication between shelters and adopters/volunteers.
 - 💸 **Donation Integration**: Encourage and process donations for shelters and rescue operations.
 
----
-
-## 📦 Folder Structure (Example)
 
 
 
